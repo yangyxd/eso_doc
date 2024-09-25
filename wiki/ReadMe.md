@@ -1,6 +1,7 @@
 # ESO wiki
 
-- [查看文档](http://yangyxd.gitee.io/eso/wiki/)
+- [查看文档 Gitee](http://yangyxd.gitee.io/eso/wiki/)
+- [查看文档 Github](https://yangyxd.github.io/eso/wiki/eso_doc/website/wiki/)
 
 亦搜文档项目。
 

@@ -124,6 +124,7 @@ footer: MIT Licensed | Copyright © 2019-2050 YangYxd
   - [x] 规则分类
 
 ###  其它
+  - [x] NAS网络储存
   - [x] 免责声明
   - [x] 备份与恢复
     - [x] 本地

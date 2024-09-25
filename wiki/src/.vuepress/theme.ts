@@ -3,7 +3,8 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "http://yangyxd.gitee.io/eso/",
+  // hostname: "http://yangyxd.gitee.io/eso/",
+  hostname: "https://yangyxd.github.io/eso_doc/website/",
 
   author: {
     name: "大白",

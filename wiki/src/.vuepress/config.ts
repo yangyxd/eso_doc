@@ -2,7 +2,8 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/eso/wiki/",
+  // base: "/eso/wiki/",
+  base: "/eso_doc/website/wiki/",
   lang: "zh-CN",
   locales: {
     "/": {

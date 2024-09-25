@@ -35,7 +35,7 @@ ESO大白版是由主要开发人员 [大白](https://github.com/yangyxd) 独立
 
 ## 下载
 
-大白版 [官网下载](http://yangyxd.gitee.io/eso/)
+大白版 [官网下载 Gitee (已失效)](http://yangyxd.gitee.io/eso/) | [官网下载 Github](https://yangyxd.github.io/eso_doc/website/)
 
 ## 特点
 

@@ -11,6 +11,7 @@ export const zhNavbar = navbar([
   {
     text: "官方网站",
     icon: "home",
-    link: "http://yangyxd.gitee.io/eso/",
+    link: "https://yangyxd.github.io/eso_doc/website/",
+    // link: "http://yangyxd.gitee.io/eso/",
   },
 ]);
