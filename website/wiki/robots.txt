@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: http://yangyxd.gitee.io/eso/eso/wiki/sitemap.xml
+Sitemap: https://yangyxd.github.io/eso_doc/website/eso_doc/website/wiki/sitemap.xml
