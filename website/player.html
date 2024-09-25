@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="css/main-css.css" rel="stylesheet">
+    <title>ESO 视频播放</title>
+    <style>
+      html,body {
+				width: 100%;
+				height: 100%;
+				background-color: #292929;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      #videoBox {
+      width: 100%;
+      height: auto;
+      position: absolute;
+			margin-left: auto;
+			margin-right: auto;
+      }
+      #videoContainer {
+      width: calc(100vw - 60px);
+      height: calc(100vh - 80px);
+			padding-top: 34px;
+			position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			top: 50%; transform:translateY(-50%);
+      }
+      .video-js {width: 100%; height: 100%;}
+      .sv-target {top: 50%; transform:translateY(-50%);}
+      .sv-full-screen {transform:translateY(0%);}
+      .form-control{display:block;width:100%;height:22px;padding:6px 0px;font-size:14px;line-height:1.42857143;color:#999;background-color:rgba(0,0,0,0);background-image:none;border:0px solid #555;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}
+      .form-control:focus{border-color:#5d7600;outline:0;}
+    </style>
+    </head>
+  <body>
+    <div id="videoBox">
+			<div style="padding: 0px 8px; background-color:rgba(0,0,0,0.15); width: calc(100% - 70px); float: left;">
+				<input type="text" class="form-control" id="address" placeholder="请输入视频地址，支持 m3u8, mp4 等常见视频" value="">
+			</div>
+			<button type="button" style="width: 48px; height: 34px; background-color:rgba(33,255,110,0.15); border: 0px; color: #ccc; float: right;" onclick="playVideo()" title="play">播放</button>
+    </div>
+    
+    <div id="videoContainer">
+			<video id="my-video" class="video-js" controls preload="auto" data-setup="{}"></video>
+    </div>
+    <!-- built files will be auto injected -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+</body>
+<script type="text/javascript" src="js/video.js"></script>
+<script type="text/javascript" src="js/videojs-contrib-hls.min.js"></script>
+<script>
+	var p=getPlayUrl();
+	if (p) { $("#address").val(p); }
+	
+	var video=videojs("my-video",{},function onPlayerReady(){
+		console.log("播放器初始化完成");
+	});
+	
+	function playVideo() {
+		if (!video) return;
+		var url = $("#address").val();
+		if (url.indexOf(".m3u8") == url.length - 5 || url.indexOf(".m3u8?") > 0) {
+			video.src({src: url, type: "application/x-mpegURL"});
+			console.log("播放m3u8");
+		} else {
+			video.src({src: url});
+			console.log("播放mp4");
+		}
+		try {
+			video.play();
+		} catch(e) {};
+	}
+	
+	function getPlayUrl() { 
+		var p=window.location.search.substr(1);
+		if (p && p.startsWith("p=")) return p.substr(2);
+		return "";
+	}
+	
+	if (p) {
+	  try {
+		playVideo();
+		} catch(e) {};
+	}
+</script>
+</html>

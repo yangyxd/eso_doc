@@ -1,0 +1,11 @@
+.vscode
+/node_modules/
+/dist/
+/src/.vuepress/.temp/
+/src/.vuepress/dist/
+dist.zip
+node_modules
+.node_modules
+.gitattributes
+*.map
+*.d.ts

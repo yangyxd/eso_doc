@@ -1,0 +1,18 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#fff" transform="matrix(11.131748427097017,0,0,12.413433545330031,-974.7795704991597,-1959.6470695353532) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="181.984398" x="89.914536" stroke-width="0.1" fill="#212120">E</text>
+  <text stroke="#000" transform="matrix(1.5909072282200398,0,0,1.4592425823211672,200.65924533316405,-307.8587111060042) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="294.453125" x="91.5" stroke-opacity="null" stroke-width="0" fill="#56564e">大   白   版</text>
+  <g stroke="null" id="svg_6">
+   <text stroke="#000" transform="matrix(9.091863375877637,0,0,8.045757529710423,-626.550721482398,-1236.354222273907) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="190.383676" x="93.984109" stroke-width="0" fill="#bfbf00">S</text>
+   <text stroke="#000" transform="matrix(9.09186337587764,0,0,8.045757529710425,-473.6224984685198,-1203.070646601034) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="186.24689" x="93.984109" stroke-width="0" fill="#bfbf00">O</text>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: http://yangyxd.gitee.io/eso/eso/wiki/sitemap.xml
