@@ -4,8 +4,11 @@
 
 ## 官网地址
 
-- http://yangyxd.gitee.io/eso
-- [文档地址](http://yangyxd.gitee.io/eso/wiki)
+- [进入官网](https://yangyxd.github.io/eso_doc/website)
+- [文档地址](https://yangyxd.github.io/eso_doc/website/wiki)
+
+## 下载
+
 - [蓝奏云](https://pc.woozooo.com)
 - [小飞机网盘](https://www.feijipan.com/)
 
